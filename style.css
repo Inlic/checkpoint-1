@@ -1,8 +1,8 @@
 /* special font usage: "font-family: 'Rubik', sans-serif;" */
 
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 body{
   min-height: 100vh;
@@ -21,8 +21,17 @@ main{
   top: 0;
 }
 
-/*@media only screen and (max-width: 992px) {
-  body {
-    padding-top: 55px;
-  }
+.banner{
+  background-image: url(https://images.unsplash.com/photo-1571391733814-15ac29ac3544?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80);
+}
+
+.banner-box{
+  padding-top: 8em;
+  padding-left: 4em;
+}
+
+#banner-text{
+  padding-left: 3em;
+  border-left: 10px solid greenyellow;
+  text-shadow: 1px 1px grey;
 }
