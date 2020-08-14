@@ -1,0 +1,23 @@
+/* special font usage: "font-family: 'Rubik', sans-serif;" */
+
+* {
+  outline: 1px solid red;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex-grow: 1;
+}
+
+header{
+  min-height: 10vh;
+}
+
+footer{
+  min-height: 30vh;
+}
