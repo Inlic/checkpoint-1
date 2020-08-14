@@ -8,8 +8,21 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 55px;
 }
 
 main{
   flex-grow: 1;
+}
+
+.navbar.sticky-top.navbar-dark.bg-dark.row{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+/*@media only screen and (max-width: 992px) {
+  body {
+    padding-top: 55px;
+  }
 }

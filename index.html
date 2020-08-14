@@ -14,35 +14,69 @@
 <body>
   
   <header class="container-fluid">
-    <nav class="navbar navbar-dark bg-dark row">
+    <nav class="navbar sticky-top navbar-dark bg-dark row">
       <span class="navbar-brand mb-0 h1">SNAKES OF AUSTRALIA</span>
     </nav>
   </header>
 
   <main class="container-fluid">
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-lg-3">
         <h3>There's a snake in my boot!</h3>
         <div class="card bg-light mb-3" style="max-width: 18rem;">
           <div class="card-header">Please end the suffering!</div>
           <div class="card-body">
-            <h5 class="card-title">Light card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <form>
+              <div class="form-row">
+                <div class="col-12 form-group">
+                <input type="text" class="form-control" placeholder="NAME">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-12 form-group">
+                <input type="email" class="form-control" placeholder="EMAIL">
+                </div>
+              </div>
+              <div class="form-row form-group">
+                <div class="col-7">
+                  <input type="tel" class="form-control" placeholder="PHONE">
+                </div>
+                <div class="col-5">
+                  <input type="text" class="form-control" placeholder="EXT">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-12 form-group">
+                  <textarea class="form-control" rows="5" placeholder="MESSAGE"></textarea>
+                </div>
+              </div>
+              <div class="form-row form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    By checking this box I agree to have live snakes delivered to my house.
+                  </label>
+                </div>
+              </div>
+              <div class="form-row form-group">
+                <button class="btn btn-primary">SUBMIT</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-      <div class="col-9">
+      <div class="d-none d-lg-block col-9">
         <h2>Stop the madness!</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum voluptatem ipsa doloribus exercitationem repellat aliquid, nesciunt, repudiandae minima incidunt id ratione. Praesentium dolore magnam alias, iure soluta eum? Magni, ipsa!</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-4">
+      <div class="order-2 order-lg-1 col-12 col-lg-4">
         <h2>Oh lord they're everywhere!</h2>
         <h2>Why is no one helping!</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatem culpa esse vel ipsum consequatur aperiam. Ullam dicta quam, aliquid minima quod veniam mollitia blanditiis ducimus, aperiam praesentium deserunt ea.</p>
       </div>
-      <div class="col-8">
+      <div class="order-1 order-lg-2 col-12 col-lg-8">
         <div class="card" style="width: 18rem;">
           <div class="card-header">
             Featured
@@ -58,12 +92,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3">
+      <div class="col-12 col-lg-3">
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="//placehold.it/400x600" alt="Card image cap">
         </div>
       </div>
-      <div class="col-9">
+      <div class="col-12 col-lg-9">
         <h5>No please not the snakes!</h5>
         <h5>I'm tired of these snakes on my plane!</h5>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis excepturi soluta, voluptates saepe autem vel hic molestiae iste dolorem rerum quae. Autem expedita perspiciatis hic praesentium illum eaque architecto exercitationem!</p>
@@ -71,10 +105,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-4">
+      <div class="order-2 order-lg-2 col-12 col-lg-4">
         <div class="card p-3 text-right">
           <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p>Well this card should be second in Mobile View First in Desktop View</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
                 Someone famous in <cite title="Source Title">Source Title</cite>
@@ -83,10 +117,10 @@
           </blockquote>
         </div>
       </div>
-      <div class="col-4">
+      <div class="order-1 order-lg-2 col-12 col-lg-4">
         <div class="card p-3 text-right">
           <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p>Well this card should be first in Mobile View Second in Desktop View</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
                 Someone famous in <cite title="Source Title">Source Title</cite>
@@ -95,10 +129,10 @@
           </blockquote>
         </div>
       </div>
-      <div class="col-4">
+      <div class="order-3 order-lg-3 col-12 col-lg-4">
         <div class="card p-3 text-right">
           <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <p>Well this card should be third in Mobile and Desktop View</p>
             <footer class="blockquote-footer">
               <small class="text-muted">
                 Someone famous in <cite title="Source Title">Source Title</cite>
