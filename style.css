@@ -13,11 +13,3 @@ body{
 main{
   flex-grow: 1;
 }
-
-header{
-  min-height: 10vh;
-}
-
-footer{
-  min-height: 30vh;
-}
