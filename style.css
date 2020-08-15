@@ -23,6 +23,10 @@ li i{
   padding-right: 1em;
 }
 
+h1 i{
+  padding: 0 0.5em;
+}
+
 .font-primary{
   color: var(--primary);
 }
