@@ -32,9 +32,14 @@ h1 i{
   padding: 0 0.5em;
 }
 
-.font-primary{
-  color: var(--primary);
+.bg-darkly-main{
+  background-color: #222;
 }
+
+.text-shadow{
+  text-shadow: 1px 1px grey;
+}
+
 
 .navbar.sticky-top.navbar-dark.bg-primary.row{
   position: fixed;
@@ -43,15 +48,31 @@ h1 i{
 }
 
 .banner{
-  background-image: url(/snake.jpg);
+  background-image: url(/canada_geese.jpg); /*img replacement*/
   background-size: cover;
+  background-position: center;
 }
 
 .img-box{
   height: 18em;
   width: auto;
-  background-image: url(/snake.jpg);
+  background-image: url(/canada_geese.jpg); /*img replacement*/
   background-size: cover;
+}
+
+/* experimental video testing class */
+
+.vid-box{
+  height: auto;
+  width: auto;
+}
+
+#bg-vid{
+  position: relative; 
+  top: 0; 
+  height: 100%; 
+  width: 100%; 
+  z-index: 2;
 }
 
 .primary-card{
@@ -79,7 +100,6 @@ h1 i{
 #banner-text{
   padding-left: 3em;
   border-left: 10px solid var(--primary);
-  text-shadow: 1px 1px grey;
 }
 
 #offset-card{
