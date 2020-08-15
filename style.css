@@ -4,6 +4,10 @@
   outline: 1px solid red;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   min-height: 100vh;
   display: flex;
@@ -40,6 +44,21 @@ h1 i{
 .banner{
   background-image: url(/snake.jpg);
   background-size: cover;
+}
+
+.img-box{
+  height: 18em;
+  width: auto;
+  background-image: url(/snake.jpg);
+  background-size: cover;
+}
+
+.primary-card{
+  height: 22em;
+}
+
+.secondary-card{
+  height: 18em;
 }
 
 .banner-box{
