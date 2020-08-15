@@ -71,31 +71,58 @@ h1 i{
 
 @media only screen and (max-width: 1800px){
   #offset-card{
-    width: 45em; 
+    width: 65em; 
     position: relative; 
     transform: translateY(20%);
     margin-left: 5%;
   }
 }
 
-@media only screen and (max-width: 1096px){
+@media only screen and (max-width: 1700px){
   #offset-card{
-    width: 55em; 
+    width: 56em; 
     position: relative; 
-    transform: translateY(0%);
-    margin-left: 0%;
-    margin: 2em auto;
+    transform: translateY(20%);
+    margin-left: 5%;
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1450px){
   #offset-card{
-    width: 38em; 
+    width: 46em; 
     position: relative; 
-    transform: translateY(0%);
-    margin-left: 0%;
-    margin: 2em auto;
+    transform: translateY(20%);
+    margin-left: 5%;
   }
+}
+
+@media only screen and (max-width:1200px){
+  #offset-card{
+    width: 45em; 
+    position: relative; 
+    transform: translateY(20%);
+    margin-left: 5%;
+    margin: 2em auto;
+}
+
+@media only screen and (max-width: 1150px){
+  #offset-card{
+    width: 40em; 
+    position: relative; 
+    transform: translateY(20%);
+    margin-left: 5%;
+    margin: 2em auto;
+  }  
+}
+
+@media only screen and (max-width: 1020px){
+  #offset-card{
+    width: 30em; 
+    position: relative; 
+    transform: translateY(20%);
+    margin-left: 5%;
+    margin: 2em auto;
+  }  
 }
 
 @media only screen and (max-width: 767px){ 
@@ -113,4 +140,16 @@ h1 i{
     padding-left: 1em;
     padding-bottom: 1em;
    }
+}
+
+@media only screen and (max-width: 1020px){
+  #image-card{
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #image-card{
+    margin-top: 0px;
+  }
 }
