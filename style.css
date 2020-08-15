@@ -78,8 +78,27 @@ h1 i{
   }
 }
 
+@media only screen and (max-width: 1096px){
+  #offset-card{
+    width: 55em; 
+    position: relative; 
+    transform: translateY(0%);
+    margin-left: 0%;
+    margin: 2em auto;
+  }
+}
 
-@media only screen and (max-width: 1100px){ 
+@media only screen and (max-width: 768px){
+  #offset-card{
+    width: 38em; 
+    position: relative; 
+    transform: translateY(0%);
+    margin-left: 0%;
+    margin: 2em auto;
+  }
+}
+
+@media only screen and (max-width: 767px){ 
   #offset-card{
     width: 18rem;
     transform: translateY(0%);
