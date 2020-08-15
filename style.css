@@ -48,7 +48,7 @@ h1 i{
 }
 
 .banner{
-  background-image: url(/canada_geese.jpg); /*img replacement*/
+  background-image: url(/canada_geese_dark.jpg); /*img replacement*/
   background-size: cover;
   background-position: center;
 }
@@ -192,4 +192,6 @@ h1 i{
   #image-card{
     margin-top: 0px;
   }
+}
+
 }
