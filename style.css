@@ -15,6 +15,10 @@ main{
   flex-grow: 1;
 }
 
+li.borderless{
+  border-style: none;
+}
+
 .navbar.sticky-top.navbar-dark.bg-primary.row{
   position: fixed;
   width: 100%;
@@ -30,8 +34,13 @@ main{
   padding-left: 4em;
 }
 
-li.borderless{
-  border-style: none;
+.below-banner-text{
+ padding-top: 5em;
+ padding-left: 4em;
+}
+
+.item-shadow{
+  box-shadow: 1px 1px grey;
 }
 
 #banner-text{
@@ -48,11 +57,19 @@ li.borderless{
 }
 
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1100px){ 
   #offset-card{
     width: 100%;
     transform: translateY(0%);
     margin-left: 0%;
     margin: 2em auto;
-  } 
+  }
+}
+
+@media only screen and (max-width: 1100px){ 
+  .below-banner-text{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+   }
 }
