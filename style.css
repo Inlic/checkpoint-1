@@ -20,6 +20,15 @@ main{
   flex-grow: 1;
 }
 
+@keyframes text-shift {
+  from {color: var(--primary);}
+  to {color: var(--danger);}
+}
+
+ #banner-anchor {
+  animation: text-shift 6s infinite;
+}
+
 li.borderless{
   border-style: none;
 }
