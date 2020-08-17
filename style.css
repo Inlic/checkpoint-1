@@ -57,7 +57,7 @@ h1 i{
 }
 
 .banner{
-  background-image: url(/checkpoint-1/canada_geese_dark.jpg); /*img replacement*/
+  background-image: url(/checkpoint-1/blob/master/canada_geese_dark.jpg); /*img replacement with github path*/
   background-size: cover;
   background-position: center;
 }
@@ -65,7 +65,7 @@ h1 i{
 .img-box{
   height: 18em;
   width: auto;
-  background-image: url(/checkpoint-1/canada_geese.jpg); /*img replacement*/
+  background-image: url(/checkpoint-1/blob/master/canada_geese.jpg); /*img replacement with github path*/
   background-size: cover;
 }
 
